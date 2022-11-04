@@ -1,9 +1,10 @@
-import './App.css';
+import Header from './components/Header'
+
 
 function App() {
   return (
-    <div className="App text-3xl">
-      hi
+    <div className='box-border m-0 p-0'>
+      <Header/>
     </div>
   );
 }
