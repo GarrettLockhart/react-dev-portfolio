@@ -16,21 +16,33 @@ const Navigation = ({ currentPage, handlePageChange }) => {
           ABOUT ME
         </a>
         <a
-          className="hover:text-custom-accent transition-all duration-300"
+          className={
+            currentPage === 'Projects'
+              ? 'text-custom-accent hover:text-custom-accent transition-all duration-300'
+              : 'hover:text-custom-accent transition-all duration-300'
+          }
           href="#projects"
           onClick={() => handlePageChange('Projects')}
         >
           PROJECTS
         </a>
         <a
-          className="hover:text-custom-accent transition-all duration-300"
+          className={
+            currentPage === 'Contact'
+              ? 'text-custom-accent hover:text-custom-accent transition-all duration-300'
+              : 'hover:text-custom-accent transition-all duration-300'
+          }
           href="#contact"
           onClick={() => handlePageChange('Contact')}
         >
           CONTACT
         </a>
         <a
-          className="hover:text-custom-accent transition-all duration-300"
+          className={
+            currentPage === 'Resume'
+              ? 'text-custom-accent hover:text-custom-accent transition-all duration-300'
+              : 'hover:text-custom-accent transition-all duration-300'
+          }
           href="#resume"
           onClick={() => handlePageChange('Resume')}
         >

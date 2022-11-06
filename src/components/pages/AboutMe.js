@@ -1,5 +1,5 @@
 import React from 'react';
-import fernImage from '../../img/bg-image-fern.jpg';
+import fernImage from '../../assets/img/bg-image-fern.jpg';
 
 const AboutMe = () => {
   return (

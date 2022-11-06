@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Unplayable",
+    "titleLong": "Unplayable",
+    "built": "Most people who have dabbled in PC gaming have come across the same variety of problem. You buy a game that you're excited for, but something goes wrong. The graphics aren't right. It's too slow. Your computer lags. There isn't enough space to download the game. Even if you know what components your computer comes with, who's to say if it's newer or older than the recommended minimum? That is where Unplayable comes in.Unplayable is an application that will cross reference your computer's components with Steam's recommended minimum to play their games. You'll be given statistics on whether the game you're looking at will run well, passably, or if it's not recommended on the device in question.",
+    "image": "../img/cards/unplayable-demo/unplayable-demo.png",
+    "liveLink": "https://unplayable.herokuapp.com/",
+    "repo": "https://github.com/nvmax/Project2-Threat-Level-Midnight",
+    "clipart": "../img/cards/unplayable-demo/unplayable-logo-alt-dark.png"
+  },
+  {
+    "title": "M.A.R.S.",
+    "titleLong": "MAKE AMERICA RE-LOVE SPACE (M.A.R.S.)",
+    "built": "Built with HTML, Tailwind, JavaScript, JQuery, momentjs.",
+    "description": "This project utilizes 2 separate APIs, the MAAS2 API for the weather data, and also Nasa's very own Mars Rover Photo API. It also features a light mode and dark mode, and an overall modern design. This site serves as an informational hub for some of the more interesting data we can gather from mars, with the goal of making america re-love space!",
+    "image": "../img/cards/mars-demo/mars-demo-visable.png",
+    "liveLink": "https://garrettlockhart.github.io/Make-America-Relove-Space/",
+    "repo": "https://github.com/GarrettLockhart/Make-America-Relove-Space",
+    "clipart": "../img/cards/mars-demo/planet-logo.png"
+  },
+  {
+    "title": "Weather App",
+    "titleLong": "Weather Anywhere!",
+    "built": "This project uses the Openweather API to display weather for whatever city you search, it will display your recent searches, and the 5 day forecast for that city, you can click on any of the recent searches to see the weather for that city again.",
+    "image": "../img/cards/weather-demo/weather-demo.png",
+    "liveLink": "https://garrettlockhart.github.io/weather-app/",
+    "repo": "https://github.com/GarrettLockhart/weather-app",
+    "clipart": "../img/cards/weather-demo/clouds-logo.png"
+  },
+  {
+    "title": "Quiz App",
+    "titleLong": "The JavaScript Quiz App",
+    "built": "This project will keep track of your score and store that so even in the event of a page refresh or you close and open, you score will remain. If you get the wrong answers the time will deduct 20 second for every wrong answer. It utilizes arrays to store the question, possible answers and correct answers. I learned a lot with project including DOM manipulation, looping through arrays only when an event had ocurred, long story short, it was rad!",
+    "image": "../img/cards/quiz-demo/quiz-demo-screenshot2.png",
+    "liveLink": "https://garrettlockhart.github.io/javascript-quiz-app/",
+    "repo": "https://github.com/GarrettLockhart/javascript-quiz-app",
+    "clipart": "../img/cards/quiz-demo/quiz-logo.png"
+  },
+  {
+    "title": "Workday Scheduler",
+    "titleLong": "Workday Scheduler",
+    "built": "This project started off with some source code that I then added upon, the majority of the logic that makes it functional was written by me. I learned a lot with this project including how to use the momentjs library and using jquery DOM traversal. Bootstrap was another thing i was able to take advantage of and I learned a lot about CSS frameworks in general.",
+    "image": "../img/cards/planner-demo/planner-demo-screenshot.png",
+    "liveLink": "https://garrettlockhart.github.io/daily-planner-app/",
+    "repo": "https://github.com/GarrettLockhart/daily-planner-app",
+    "clipart": "../img/cards/planner-demo/planner-logo.png"
+  }
+]

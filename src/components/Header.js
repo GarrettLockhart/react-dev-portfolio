@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../img/logorec.png';
+import logo from '../assets/img/logorec.png';
 import Navigation from './Navigation';
 import AboutMe from './pages/AboutMe';
 import Projects from './pages/Projects';
@@ -25,7 +25,7 @@ export default function PagesContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className='overflow-hidden'>
       <div className="bg-custom-black">
         <nav class="flex justify-between items-center px-4 py-8 xsm:mx-10 lg:mx-20">
           <div>
