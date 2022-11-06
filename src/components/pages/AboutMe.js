@@ -4,7 +4,7 @@ import fernImage from '../../assets/img/bg-image-fern.jpg';
 const AboutMe = () => {
   return (
     <div className="h-screen bg-custom-white">
-      <section className="h-3/4" style={{backgroundImage: `url(${fernImage})]`}}>
+      <section className="h-5/6" style={{backgroundImage: `url(${fernImage})]`}}>
         <h2 className="showcase-title">&#60;Hi, I'm Garrett&#62;</h2>
         <p className="showcase-desciption">Full Stack Web Developer</p>
         <a className="arrow-down" href="#about">

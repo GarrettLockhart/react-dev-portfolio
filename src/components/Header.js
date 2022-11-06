@@ -9,6 +9,8 @@ import Resume from './pages/Resume';
 export default function PagesContainer() {
   const [currentPage, setCurrentPage] = useState('About me');
 
+  const [menuStage, setMenu] = useState('Close')
+
   const renderPage = () => {
     if (currentPage === 'About me') {
       return <AboutMe />;
@@ -24,6 +26,8 @@ export default function PagesContainer() {
 
   const handlePageChange = (page) => setCurrentPage(page);
 
+  const handleMenu = (stage) => setMenu(stage)
+
   return (
     <div className='overflow-hidden'>
       <div className="bg-custom-black">
@@ -33,7 +37,7 @@ export default function PagesContainer() {
           </div>
           <Navigation
             currentPage={currentPage}
-            handlePageChange={handlePageChange}
+            handlePageChange={handlePageChange} menuStage={handleMenu}
           />
         </nav>
       </div>

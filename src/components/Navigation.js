@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Navigation = ({ currentPage, handlePageChange }) => {
+const Navigation = ({ currentPage, handlePageChange, handleMenu }) => {
   return (
     <div>
       <div className="hidden space-x-8 lg:flex text-custom-white">
