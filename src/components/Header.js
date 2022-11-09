@@ -9,7 +9,7 @@ import Resume from './pages/Resume';
 export default function PagesContainer() {
   const [currentPage, setCurrentPage] = useState('About me');
 
-  const [menuStage, setMenu] = useState('Close')
+  const [menuStage, setMenu] = useState('Close');
 
   const renderPage = () => {
     if (currentPage === 'About me') {
@@ -26,18 +26,21 @@ export default function PagesContainer() {
 
   const handlePageChange = (page) => setCurrentPage(page);
 
-  const handleMenu = (stage) => setMenu(stage)
+  const handleMenu = (stage) => setMenu(stage);
 
   return (
-    <div className='overflow-hidden'>
-      <div className="bg-custom-black">
-        <nav class="flex justify-between items-center px-4 py-8 xsm:mx-10 lg:mx-20">
+    <div className="overflow-hidden">
+      <div className="bg-custom-black h-auto">
+        <nav class="flex justify-between items-center px-4 p-3 xsm:mx-10 lg:mx-20">
           <div>
-            <img src={logo} alt="Personal logo" className="w-20" />
+            <a href="/index">
+              <img src={logo} alt="Personal logo" className="w-20" />
+            </a>
           </div>
           <Navigation
             currentPage={currentPage}
-            handlePageChange={handlePageChange} menuStage={handleMenu}
+            handlePageChange={handlePageChange}
+            menuStage={handleMenu}
           />
         </nav>
       </div>

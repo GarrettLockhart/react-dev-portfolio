@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
 html {
   background-color: #fbfbfb;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
 .showcase-background {
@@ -11,4 +17,12 @@ html {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.card-img {
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
