@@ -1,5 +1,5 @@
 import React from 'react';
-import avatar from '../img/avatar.JPEG';
+import avatar from '../../img/avatar.JPEG';
 import '../../index.css';
 
 const AboutMe = () => {

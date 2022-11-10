@@ -13,7 +13,7 @@ body {
 }
 
 .showcase-background {
-  background-image: url('./components/img/bg-image-fern.jpg');
+  background-image: url('./img/bg-image-fern.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
