@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const Navigation = ({ currentPage, handlePageChange, handleMenu }) => {
+const Navigation = ({ currentPage, handlePageChange }) => {
+  const [isActive, setActive] = useState(false);
+
+  const handleMenu = () => {
+    setActive(!isActive);
+  };
+
   return (
     <div>
-      <div className="hidden space-x-8 lg:flex text-custom-white">
+      <div className={isActive ? "space-x-8 flex flex-col lg:flex text-custom-white" : "hidden space-x-8 lg:flex text-custom-white"}>
         <a
           className={
             currentPage === 'About me'
@@ -49,7 +55,7 @@ const Navigation = ({ currentPage, handlePageChange, handleMenu }) => {
           RESUME
         </a>
       </div>
-      <div className="flex lg:hidden mr-2">
+      <div className='flex lg:hidden mr-2' onClick={handleMenu}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="w-8 h-8"
