@@ -4,7 +4,7 @@ import { FaCode, FaPaintBrush, FaUserCheck } from 'react-icons/fa';
 
 const Passion = () => {
   return (
-    <section class='container mx-auto my-40 grid w-[90vw] lg:grid-cols-3 justify-center text-center'>
+    <section class='container mx-auto my-32 grid w-[90vw] lg:grid-cols-3 justify-center text-center'>
       <article class=''>
         <div class='flex flex-col justify-center items-center p-4'>
           <FaCode className='text-5xl mb-2 text-custom-accent ' />

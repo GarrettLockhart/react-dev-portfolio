@@ -1,5 +1,4 @@
 import React from 'react';
-import avatar from '../../img/avatar.JPEG';
 import Showcase from '../Showcase/Showcase';
 import Passion from '../Passion/Passion';
 
