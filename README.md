@@ -12,15 +12,13 @@
 <h3 align="center">Dev Portfolio</h3>
 
   <p align="center">
-    A simple portfolio for myself, show casing my projects, about me, and ways to contact me.
+    A simple portfolio built using React, show casing my projects, about me, and ways to contact me.
     <br />
     <br />
     <br />
     <a href="https://www.garrettlockhart.dev/">View Site</a>
     ·
     <a href="https://github.com/GarrettLockhart/react-dev-portfolio/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/GarrettLockhart/react-dev-portfolio/issues">Request Feature</a>
   </p>
 </div>
 <br />
@@ -44,7 +42,7 @@
 
 ## About The Project
 
-I built this using React from scratch, and its completely responsive utilizing TailwindCSS. It's an ever changing site that I will continue to update and work on to improve the interaction and design, as well as update the project section as I create more web apps!
+I built this using React from scratch, and its completely responsive utilizing TailwindCSS. It's an ever changing site that I will continue to update and work on to improve the interaction and design, as well as update the project section as I create more web apps! You can use the contact form to send me an email, or download my resume.
 
 ### Built With
 
