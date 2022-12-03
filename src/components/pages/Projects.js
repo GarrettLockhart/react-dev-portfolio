@@ -10,7 +10,7 @@ const Projects = () => {
       <main className='w-[90vw]'>
         {projects.map((project, index) => {
           return (
-            <div className='mb-40'>
+            <div className='mb-40' key={project.title}>
               <div
                 key={index}
                 className='grid lg:grid-cols-2 grid-cols-1 mb-10'
@@ -29,23 +29,29 @@ const Projects = () => {
                     </h3>
                     <p
                       dangerouslySetInnerHTML={{ __html: project.built }}
-                      className='mb-4'
+                      className='mb-4 lg:text-left text-center'
                     ></p>
                     <p className='mb-4'>{project.description}</p>
                   </div>
                 </div>
               </div>
               <div className='flex flex-row justify-center items-center w-full mt-5'>
-                <button className='mx-4 bg-custom-accent w-36 py-2 rounded-lg text-white antialiased font-bold transition-all ease-in-out duration-200 hover:bg-custom-accent-light'>
-                  <a href={project.liveLink} target='_blank' rel='noreferrer'>
-                    Live Site
-                  </a>
-                </button>
-                <button className='mx-4 bg-custom-accent w-36 py-2 rounded-lg text-white antialiased font-bold transition-all ease-in-out duration-200 hover:bg-custom-accent-light'>
-                  <a href={project.repo} target='_blank' rel='noreferrer'>
-                    Repo
-                  </a>
-                </button>
+                <a
+                  href={project.liveLink}
+                  target='_blank'
+                  rel='noreferrer'
+                  className='mx-4 bg-custom-accent w-36 py-2 rounded-lg text-white antialiased font-bold transition-all ease-in-out duration-200 hover:bg-custom-accent-light text-center'
+                >
+                  Live Site
+                </a>
+                <a
+                  href={project.repo}
+                  target='_blank'
+                  rel='noreferrer'
+                  className='mx-4 bg-custom-accent w-36 py-2 rounded-lg text-white antialiased font-bold transition-all ease-in-out duration-200 hover:bg-custom-accent-light text-center'
+                >
+                  Repo
+                </a>
               </div>
             </div>
           );

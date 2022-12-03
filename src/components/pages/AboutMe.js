@@ -7,12 +7,12 @@ const AboutMe = () => {
     <>
       <Showcase />
       <div className='container mx-auto w-[90vw] h-auto mb-10'>
-        <section className='flex justify-center items-center text-3xl h-20 mb-5'>
+        <section className='flex justify-center items-center text-3xl h-20 mb-5 '>
           <h3 className='uppercase'>About Me</h3>
         </section>
 
         <div className='flex flex-col justify-center items-center'>
-          <p className='md:w-1/2 text-center mb-20'>
+          <p className='md:w-1/2 text-center mb-20 '>
             It's me, <strong>Garrett Lockhart</strong> and i'm a very dedicated
             full stack web developer, I love coding and everything that comes
             along with it, I'm learning the <strong>MERN</strong> stack and bit

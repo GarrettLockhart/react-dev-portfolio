@@ -4,9 +4,9 @@ import { FaCode, FaPaintBrush, FaUserCheck } from 'react-icons/fa';
 
 const Passion = () => {
   return (
-    <section class='container mx-auto my-32 grid w-[90vw] lg:grid-cols-3 justify-center text-center'>
-      <article class=''>
-        <div class='flex flex-col justify-center items-center p-4'>
+    <section className='container mx-auto my-32 grid w-[90vw] lg:grid-cols-3 justify-center text-center'>
+      <article>
+        <div className='flex flex-col justify-center items-center p-4'>
           <FaCode className='text-5xl mb-2 text-custom-accent ' />
           <h4 className='text-2xl mb-4'>Development</h4>
           <p className='leading-relaxed'>
@@ -18,8 +18,8 @@ const Passion = () => {
         </div>
       </article>
 
-      <article class=''>
-        <div class='flex flex-col justify-center items-center p-4'>
+      <article>
+        <div className='flex flex-col justify-center items-center p-4'>
           <FaPaintBrush className='text-5xl mb-2 text-custom-accent ' />
           <h4 className='text-2xl mb-4'>Design</h4>
           <p className='leading-relaxed'>
@@ -31,8 +31,8 @@ const Passion = () => {
         </div>
       </article>
 
-      <article class=''>
-        <div class='flex flex-col justify-center items-center p-4'>
+      <article>
+        <div className='flex flex-col justify-center items-center p-4'>
           <FaUserCheck className='text-5xl mb-2 text-custom-accent' />
           <h4 className='text-2xl mb-4'>User Experience</h4>
           <p className='leading-relaxed'>
