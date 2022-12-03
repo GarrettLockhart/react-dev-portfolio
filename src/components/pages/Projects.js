@@ -22,7 +22,7 @@ const Projects = () => {
                     className='contain'
                   />
                 </div>
-                <div className='flex flex-col justify-center items-center text-l px-10'>
+                <div className='flex flex-col justify-center items-center text-l lg:px-10 px-2'>
                   <div className='flex flex-col justify-start'>
                     <h3 className='mb-4 text-4xl lg:text-left text-center'>
                       {project.title}
