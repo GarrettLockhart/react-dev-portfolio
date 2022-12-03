@@ -72,7 +72,7 @@ Don't forget to give the project a star! Thanks again!
 
 ## Live Site
 
-Project Link: [https://garrettlockhart.onrender.com/](https://garrettlockhart.onrender.com/)
+Project Link: [https://www.garrettlockhart.dev/](https://www.garrettlockhart.dev/)
 <br />
 <br />
 
