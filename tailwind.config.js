@@ -7,6 +7,7 @@ module.exports = {
         'custom-white': '#fbfbfb',
         'custom-black': '#000000',
         'custom-accent': '#13b4b6',
+        'custom-accent-light': '#16cacc',
         'custom-gray': '#e8e8e8',
         'custom-dark-gray': '#4f4f4f'
       }
