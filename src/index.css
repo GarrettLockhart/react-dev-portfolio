@@ -20,6 +20,10 @@ picture {
   display: block;
 }
 
+.gotcha {
+  display: none !important;
+}
+
 /* Custom styles */
 
 .showcase-background {

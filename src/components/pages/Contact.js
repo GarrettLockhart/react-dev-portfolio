@@ -28,7 +28,11 @@ const Contact = () => {
             Click to download my resume
             <BiCloudDownload className='ml-2 text-2xl' />
           </button>
-          <form className='space-y-8'>
+          <form
+            action='https://getform.io/f/13c9b844-febd-4605-97d7-b39fa53753e6'
+            method='POST'
+            className='space-y-8'
+          >
             <div>
               <label
                 htmlFor='email'
@@ -39,6 +43,7 @@ const Contact = () => {
               <input
                 type='email'
                 id='email'
+                name='email'
                 className='shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 '
               />
             </div>
@@ -52,6 +57,7 @@ const Contact = () => {
               <input
                 type='text'
                 id='subject'
+                name='subject'
                 className='block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 '
               />
             </div>
@@ -65,6 +71,7 @@ const Contact = () => {
               <textarea
                 id='message'
                 rows='6'
+                name='message'
                 className='block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500'
               ></textarea>
             </div>
@@ -74,11 +81,28 @@ const Contact = () => {
             >
               Send message
             </button>
+            <input
+              type='hidden'
+              name='_gotcha'
+              className='gotcha'
+            ></input>
           </form>
         </div>
-        <div className='flex justify-center items-center text-5xl text-custom-accent transition-all ease-in-out duration-200 hover:test-custom-accent-light pb-52'>
-          <BsGithub className='mx-4 cursor-pointer' />
-          <BsLinkedin className='mx-4 cursor-pointer' />
+        <div className='flex justify-center items-center text-5xl text-custom-accent pb-52'>
+          <a
+            href='https://github.com/GarrettLockhart'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <BsGithub className='mx-4 cursor-pointer  transition-all ease-in-out duration-200 hover:text-custom-accent-light' />
+          </a>
+          <a
+            href='https://www.linkedin.com/in/garrett-lockhart/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <BsLinkedin className='mx-4 cursor-pointer  transition-all ease-in-out duration-200 hover:text-custom-accent-light' />
+          </a>
         </div>
       </section>
     </>

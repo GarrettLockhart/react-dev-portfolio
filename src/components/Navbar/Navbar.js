@@ -54,7 +54,7 @@ const Navbar = () => {
           </ul>
           <button
             onClick={handleChange}
-            className='show-hamburger hidden text-2xl text-white md:mr-0 mr-20 p-2 rounded-lg hover:'
+            className='show-hamburger hidden text-2xl text-white md:mr-0 mr-7 p-2 rounded-lg hover:'
           >
             <AiOutlineMenu />
           </button>
