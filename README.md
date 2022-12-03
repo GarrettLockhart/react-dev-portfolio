@@ -52,6 +52,7 @@ I built this using React from scratch, and its completely responsive utilizing T
 - [TailwindCSS](https://tailwindcss.com/)
 - [ReactJS](https://reactjs.org/)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [getform.io](https://getform.io/)
 
 <!-- CONTRIBUTING -->
 
