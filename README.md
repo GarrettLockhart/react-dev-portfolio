@@ -16,7 +16,7 @@
     <br />
     <br />
     <br />
-    <a href="https://www.garrettlockhart.dev/">View Demo</a>
+    <a href="https://www.garrettlockhart.dev/">View Site</a>
     ·
     <a href="https://github.com/GarrettLockhart/react-dev-portfolio/issues">Report Bug</a>
     ·
