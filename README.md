@@ -44,14 +44,14 @@
 
 ## About The Project
 
-I built this using React from scratch, and its completely responsive. It's an ever changing site that i will continue to update and work on to improve the interaction and design, as well as update the project section as i create more web apps!
+I built this using React from scratch, and its completely responsive utilizing TailwindCSS. It's an ever changing site that I will continue to update and work on to improve the interaction and design, as well as update the project section as I create more web apps!
 
 ### Built With
 
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [TailwindCSS](https://tailwindcss.com/)
 - [ReactJS](https://reactjs.org/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 <!-- CONTRIBUTING -->
 
@@ -72,7 +72,7 @@ Don't forget to give the project a star! Thanks again!
 
 ## Live Site
 
-Project Link: [https://garrettlockhart.github.io/react-dev-portfolio/](https://garrettlockhart.github.io/react-dev-portfolio/)
+Project Link: [https://garrettlockhart.onrender.com/](https://garrettlockhart.onrender.com/)
 <br />
 <br />
 
