@@ -51,9 +51,11 @@ picture {
   .show-hamburger {
     display: block;
   }
+
   .hide-navbar {
     display: none;
   }
+
   .show-navbar {
     display: flex;
     flex-direction: column;
@@ -62,5 +64,9 @@ picture {
     left: 0px;
     background-color: black;
     width: 100vw;
+  }
+
+  .scroll-to-top {
+    display: none;
   }
 }

@@ -2,12 +2,17 @@ import React, { useState } from 'react';
 import logo from '../../img/logorec.png';
 import { Link } from 'react-router-dom';
 import { AiOutlineMenu } from 'react-icons/ai';
+import { BsFillArrowUpCircleFill } from 'react-icons/bs';
 
 const Navbar = () => {
   const [isActive, setActive] = useState(false);
 
   const handleChange = () => {
     setActive(!isActive);
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
@@ -59,6 +64,12 @@ const Navbar = () => {
             <AiOutlineMenu />
           </button>
         </nav>
+      </div>
+      <div
+        onClick={scrollToTop}
+        className='scroll-to-top text-custom-accent fixed bottom-4 right-4 text-5xl transition-all ease-in-out duration-200 hover:text-custom-accent-light cursor-pointer'
+      >
+        <BsFillArrowUpCircleFill />
       </div>
     </div>
   );
