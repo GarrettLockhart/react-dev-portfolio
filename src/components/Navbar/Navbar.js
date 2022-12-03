@@ -4,23 +4,24 @@ import { Link } from 'react-router-dom';
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Navbar = () => {
-  const [isActive, setActive] = useState(true);
+  const [isActive, setActive] = useState(false);
 
   const handleChange = () => {
     setActive(!isActive);
   };
   return (
     <div>
-      <div className='flex flex-row justify-around items-center h-[7vh] bg-black sticky w-screen'>
+      <div className='flex flex-row md:justify-around justify-between items-center h-[7vh] bg-black sticky w-screen'>
         <Link to='/'>
-          <img className='w-16' src={logo} alt='Personal Logo' />
+          <img className='w-16 lg:ml-0 ml-10' src={logo} alt='Personal Logo' />
         </Link>
         <nav className='custom-navbar'>
-          <ul className='hide-navbar flex flex-row justify-center items-center'>
+          <ul className={isActive ? 'show-navbar flex flex-row justify-center items-center' : 'hide-navbar flex flex-row justify-center items-center'}>
             <li className='m-4'>
               <Link
                 to='/'
                 className='text-white transition-all ease-in-out duration-200 hover:text-custom-accent'
+                onClick={handleChange}
               >
                 ABOUT
               </Link>
@@ -29,6 +30,7 @@ const Navbar = () => {
               <Link
                 to='/projects'
                 className='text-white transition-all ease-in-out duration-200 hover:text-custom-accent'
+                onClick={handleChange}
               >
                 PROJECTS
               </Link>
@@ -37,6 +39,7 @@ const Navbar = () => {
               <Link
                 to='/contact'
                 className='text-white transition-all ease-in-out duration-200 hover:text-custom-accent'
+                onClick={handleChange}
               >
                 CONTACT
               </Link>
@@ -45,12 +48,13 @@ const Navbar = () => {
               <Link
                 to='/resume'
                 className='text-white transition-all ease-in-out duration-200 hover:text-custom-accent'
+                onClick={handleChange}
               >
                 RESUME
               </Link>
             </li>
           </ul>
-          <button onClick={handleChange} className='show-hamburger hidden text-2xl text-white'>
+          <button onClick={handleChange} className='show-hamburger hidden text-2xl text-white md:mr-0 mr-20'>
             <GiHamburgerMenu />
           </button>
         </nav>
