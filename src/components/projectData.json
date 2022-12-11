@@ -15,7 +15,7 @@
     "description": "This project features authentication and account creation using things like bcrypt to encrypt password and sensitive information, it is a way to search video games through the steam library and return relevant information regarding their recommended spec and minimum specs to play the game, along with information about the game and some media. It utilizes a massive MySQL database with over 600,000 lines of data, with the help of the ORM Sequelize to help manage that data.",
     "built": "Built with <strong>HTML, CSS, JavaScript, Express.js, MySQL, Sequelize, Node.js</strong>",
     "image": "../../img/unplayable-demo.png",
-    "liveLink": "https://unplayable.herokuapp.com/",
+    "liveLink": "https://unplayable2.herokuapp.com/",
     "repo": "https://github.com/nvmax/Project2-Threat-Level-Midnight",
     "clipart": "../../img/unplayable-logo-alt-dark.png"
   },
